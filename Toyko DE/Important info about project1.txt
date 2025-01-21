@@ -1,0 +1,59 @@
+
+Application (client) ID: f4f9a4d7-9ef4-4f0d-aad8-1a2765ccae36
+
+Directory (tenant) ID:5b88a6bd-e69c-4b41-a6a4-368addc38ee4
+
+secretkey: CMf8Q~5DtGUD95FF1Z5WlXtZpDDnFmDsodIu4atX
+
+
+
+Introduction
+
+The Olympic Data Analytics Project aims to harness modern cloud data engineering practices to analyze and visualize data from the Paris Olympics 2021. Using Microsoft Azure’s ecosystem, the project demonstrates how to create an end-to-end pipeline for data ingestion, transformation, storage, and analytics. By integrating Azure Data Factory, Azure Data Lake, Azure Databricks, Azure Synapse Analytics, and visualization tools like Power BI or Tableau, this project showcases a scalable and efficient workflow to turn raw data into actionable insights.
+
+Project Overview
+
+Data Source: The Paris Olympics 2021 dataset sourced from Kaggle contains comprehensive information about athletes, events, results, and participating nations.
+
+Objective: Build a cloud-native data pipeline to analyze key trends and metrics from the dataset, such as medal tallies, athlete performance, and country participation.
+
+
+Workflow Summary
+
+Data Ingestion (Azure Data Factory):
+
+Azure Data Factory is configured to ingest the Paris Olympics dataset from Kaggle into an Azure Data Lake Storage (ADLS) Gen2 account.
+
+The ingestion process includes scheduling, monitoring, and logging to ensure robust data movement.
+
+Data Storage (Azure Data Lake):
+
+The raw dataset is stored in a designated folder in ADLS Gen2, ensuring a centralized and secure repository.
+
+Data Transformation (Azure Databricks):
+
+Azure Databricks is used to clean, preprocess, and transform the raw data into an analytics-ready format.
+
+The transformed data is stored in a separate folder within ADLS Gen2, maintaining a clear separation of raw and processed data.
+
+Data Analytics (Azure Synapse Analytics):
+
+The transformed data is imported into Azure Synapse Analytics to enable SQL-based querying and advanced analytics.
+
+Analytical queries focus on trends such as medal distribution, athlete demographics, and performance metrics.
+
+Data Visualization (Power BI/Tableau):
+
+Visual dashboards are created in Power BI or Tableau to provide intuitive and interactive insights for end-users.
+
+Dashboards include visualizations like medal tallies by country, performance trends over time, and athlete statistics.
+
+Summary
+
+This project demonstrates a practical application of data engineering techniques in the context of a high-profile global event. By leveraging Azure’s comprehensive suite of tools, the pipeline ensures scalability, reliability, and actionable insights. The project not only highlights the utility of cloud-native data engineering workflows but also serves as a template for similar large-scale data analytics initiatives.
+
+
+
+👦🏻 My Linkedin -   / darshil-parmar  
+ 📷 Instagram -   / darshilparmarr  
+🎯Twitter -   / parmardarshil07  
